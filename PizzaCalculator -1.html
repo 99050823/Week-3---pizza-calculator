@@ -1,0 +1,44 @@
+<!DOCTYPE html>
+<html lang="nl">
+<head>
+   <meta http-equiv="Content-Type" content="text/html;charset=UTF-8">
+   <title>Pizza Calculator</title>
+</head>
+<body>
+  <h1>Pizza Calculator</h1>
+
+  <script>
+  	// naam: Luuk
+  	// achternaam: van Wijgerden
+    // Software Developer Niveau 
+    // Pizza Calculator
+
+    var small = 5;
+    var medium = 7;
+    var large = 11;
+
+   var input1 = window.prompt("small pizza:");
+   var input2 = window.prompt("medium pizza:");
+   var input3 = window.prompt("large pizza:");
+
+   var a = input1 * small;
+   var b = input2 * medium;
+   var c = input3 * large;
+
+   var total = a + b + c;
+
+   document.write("Small pizza:" + a);
+   document.write("<br />");
+   document.write("<br />");
+   document.write("Medium pizza:" + b);
+   document.write("<br />");
+   document.write("<br />");
+   document.write("Large pizza:" + c);
+   document.write("<br />");
+   document.write("<br />");
+   document.write("<br />");
+   document.write("Total $:" + total);
+
+  </script>
+ </body>
+</html>
